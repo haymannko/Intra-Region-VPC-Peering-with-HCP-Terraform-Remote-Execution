@@ -5,7 +5,7 @@ https://link.excalidraw.com/l/5XayvvYquoD/IDLJFFTG6S
 
 ### To create Workspace =>config file HCP Terraform
 terraform.tf
-![alt text](image.png)
+![alt text](images/image.png)
 
 ### Workspaces
 #### Create fe-network-ws, be-network-ws, peering-ws, fe-security-ws, be-security-ws, be-compute-ws, fe-security-ws 
@@ -145,21 +145,21 @@ resource "aws_vpc_security_group_egress_rule" "fe_private_sg03_allow_ssh_to_be_p
 #### State file
 After terraform apply => can check workspaces and statefile
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 #### Check in AWS
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 
 #### Donot forget to destroy => destroy strictly not to face error
