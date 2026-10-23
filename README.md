@@ -1,4 +1,8 @@
-## HCP Terraform remote execution runs your Terraform plans and applies securely on HashiCorp’s managed cloud infrastructure instead of your local machine, the state file is automatically stored, locked, and updated securely in the cloud during every run
+## HCP Terraform remote execution runs your Terraform plans and applies securely on HashiCorp’s managed cloud infrastructure instead of your local machine, the state file is automatically stored, locked, and updated securely in the cloud during every run  
+
+
+![alt text](images/image-8.png)
+
 
 ### Clickops with excalidraw
 https://link.excalidraw.com/l/5XayvvYquoD/IDLJFFTG6S
@@ -11,6 +15,7 @@ terraform.tf
 #### Create fe-network-ws, be-network-ws, peering-ws, fe-security-ws, be-security-ws, be-compute-ws, fe-security-ws 
 Run terraform login and take token from account settings 
 https://app.terraform.io
+
 
 ### need to add variables AWS Access Key and AWS Secret Key in Projects of workspace 
 
